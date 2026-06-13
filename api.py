@@ -1,6 +1,6 @@
 import requests
 
-API_URL = "http://localhost:8000"
+API_URL = "https://api-dengue-z2ly.onrender.com/"
 
 def listar_mapa():
     return requests.get(f"{API_URL}/mapa").json()
