@@ -12,10 +12,16 @@ def dashboard():
     return requests.get(f"{API_URL}/dashboard").json()
 
 def cadastrar(dados):
-    return requests.post(
+
+    response = requests.post(
         f"{API_URL}/focos",
         json=dados
     )
+
+    print(response.status_code)
+    print(response.text)
+
+    return response
 
 def resolver(id):
     return requests.put(
