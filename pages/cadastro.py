@@ -151,9 +151,7 @@ def cadastrar_ocorrencia(payload):
             timeout=15
         )
 
-        
-
-        st.write(f"teste {API_URL}/focos {payload}")
+    
         
 
         return resposta
