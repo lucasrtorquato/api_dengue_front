@@ -151,6 +151,10 @@ def cadastrar_ocorrencia(payload):
             timeout=15
         )
 
+
+        st.write(resposta.status_code)
+        st.write(resposta.text)
+
         return resposta
 
     except Exception as erro:
