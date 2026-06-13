@@ -151,9 +151,9 @@ def cadastrar_ocorrencia(payload):
             timeout=15
         )
 
+        
 
-        st.write(resposta.status_code)
-        st.write(resposta.text)
+        st.write(f"teste {API_URL}/focos")
 
         return resposta
 
