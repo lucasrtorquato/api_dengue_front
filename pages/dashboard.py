@@ -7,7 +7,7 @@ import plotly.express as px
 # CONFIGURAÇÕES
 # ==========================================
 
-API_URL = "http://localhost:8000"
+API_URL = "https://api-dengue-z2ly.onrender.com/"
 
 st.set_page_config(
     page_title="Dashboard - Combate à Dengue",
