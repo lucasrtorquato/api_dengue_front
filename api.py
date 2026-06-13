@@ -18,9 +18,6 @@ def cadastrar(dados):
         json=dados
     )
 
-    print(response.status_code)
-    print(response.text)
-
     return response
 
 def resolver(id):
