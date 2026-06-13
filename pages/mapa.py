@@ -13,6 +13,8 @@ st.title("🗺️ Mapa de Ocorrências")
 
 dados = listar_focos()
 
+st.write(f"teste {dados}")
+
 # Centro inicial (Presidente Prudente)
 mapa = folium.Map(
     location=[-22.12, -51.39],
