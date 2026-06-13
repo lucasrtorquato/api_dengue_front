@@ -7,7 +7,7 @@ from streamlit_folium import st_folium
 # CONFIGURAÇÕES
 # ==========================================
 
-API_URL = "https://api-dengue-z2ly.onrender.com/"
+API_URL = "https://api-dengue-z2ly.onrender.com"
 
 st.set_page_config(
     page_title="Cadastro de Ocorrência",
