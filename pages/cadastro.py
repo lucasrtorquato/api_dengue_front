@@ -153,7 +153,8 @@ def cadastrar_ocorrencia(payload):
 
         
 
-        st.write(f"teste {API_URL}/focos")
+        st.write(f"teste {API_URL}/focos {payload}")
+        
 
         return resposta
 
